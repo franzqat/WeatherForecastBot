@@ -49,7 +49,7 @@ def end(update, context):
     #logger.info("Bio of %s: %s", user.first_name, update.message.text)
     update.message.reply_text('Thank you! I hope we can talk again some day.')
 
-    return ConversationHandler.END
+    #return ConversationHandler.END
 
 
 def cancel(update, context):
